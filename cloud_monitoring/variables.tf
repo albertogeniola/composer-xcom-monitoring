@@ -8,3 +8,7 @@ variable "composer_xcom_table_size_threshold" {
   description = "Configurable threshold for custom metric and alerting, in bytes."
   default = 4294967296  # 4 GiB
 }
+variable "renotification_interval" {
+  description = "Specifies the time interval between notifications for open incident."
+  default = "86400s" # seconds in a day
+}

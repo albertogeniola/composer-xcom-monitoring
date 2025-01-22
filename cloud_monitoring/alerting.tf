@@ -20,7 +20,7 @@ resource "google_monitoring_alert_policy" "xcom_table_size_alert" {
 
   alert_strategy {
     notification_channel_strategy {
-        renotify_interval = "1800s"
+        renotify_interval = var.renotification_interval
         notification_channel_names = [google_monitoring_notification_channel.email.name]
     }
   }
