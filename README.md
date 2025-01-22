@@ -46,3 +46,11 @@ The DAG is configured to run every 5 minutes and to populate all the metrics acc
 As soon as the xcom_monitor DAG is enabled, you can manually run it or wait for the first execution to be triggered as per schedule. If everything works as expected, you'll see new metrics within the Google Cloud Monitoring console, under the "global" section, as per image below.
 
 <a href="docs/images/metrics.png" target="_blank"><img src="docs/images/metrics.png" width="800"></a>
+
+## Screenshots
+Have a look at the following screenshots to understand how the metrics are populated in the cloud console.
+
+<a href="docs/images/alerting.png" target="_blank"><img src="docs/images/alerting.png" width="800"></a>
+<a href="docs/images/info_by_task.png" target="_blank"><img src="docs/images/info_by_task.png" width="800"></a>
+<a href="docs/images/metrics_by_dag.png" target="_blank"><img src="docs/images/metrics_by_dag.png" width="800"></a>
+<a href="docs/images/oldest_run_per_task.png" target="_blank"><img src="docs/images/oldest_run_per_task.png" width="800"></a>
